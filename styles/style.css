@@ -1,5 +1,82 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+@font-face {
+  font-family: 'kalam';
+  src: url('fonts/Kalam-Bold.ttf')  format('truetype'),
+       url('fonts/Kalam-Light.ttf')  format('truetype'),
+       url('fonts/Kalam-Regular.ttf')  format('truetype');
 }
+*, *::after, *::before {
+  box-sizing:border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+section {
+  padding: 15px;
+}
+ul {
+  list-style-type:none;
+  padding: 0;
+}
+button {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 5px 20px;
+}
+h4 {
+font-weight:  "Bitstream Vera Serif Bold", sans-serif; 
+}
+.flex {
+  display: flex;
+}
+.menu {
+  height: 50px;
+  justify-content:space-between;
+}
+.menu img {
+  width: 90px;
+}
+input {
+  border-radius: 15px;
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #D5D5D5;
+}
+.search{
+  justify-content: center;
+}
+.jumbotron {
+  background-image: url("../images/Homepage-hero-L-week-48.jpg");
+  text-align: center;
+  color: #fff;
+  text-shadow:5px 5px 10px black;
+}
+.blokken img {
+  height: 66px;
 
+}
+.blokken li {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  border: 1px solid #D5D5D5;
+  padding: 15px;
+}
+.blokken li:nth-of-type(1) {
+  border-radius: 10px 0px 0px 10px;
+}
+.blokken li:nth-of-type(3) {
+  border-radius: 0px 10px 10px 0px;
+}
+.rijen li {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  border: 1px solid #D5D5D5;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
