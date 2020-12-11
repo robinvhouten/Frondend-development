@@ -39,6 +39,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+-Goed-
+Zag er goed uit en was al lekker op weg.
+
+-verbetering-
+Button aanpassen naar een A element
+span mag gebruikt worden (naar aanleiding van mijn vraag)
 
 **Screenshot(s):**
 

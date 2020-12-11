@@ -13,18 +13,18 @@
 
 <body>
 	<header>
-		<section>
+		<section class="flex menu">
 			<section>
 				<h5>MENU</h5>
 			</section>
-			<img src="" alt="jumbo logo">
-			<ul> <!-- icons in -->
-				<li></li>
-				<li></li>
-				<li></li>
+			<img src="images/Jumbo_Logo.svg.png" alt="jumbo logo">
+			<ul>
+				<li><i class="fas fa-user-alt"></i></li>
+				<li><i class="fas fa-heart"></i></li>
+				<li><i class="fas fa-shopping-basket"></i></li>
 			</ul>
 		</section>
-		<section>
+		<section class="flex search">
 			<input type="text" placeholder="Waar ben je naar op zoek?">
 		</section>
 	</header>
@@ -134,10 +134,9 @@
     </section>
 	</main>
 	<footer>
-		<section>
-			<!-- vraag: hoe deze sectie het beste indelen? -->
-			<section>
-				<img src="" alt="Foto medewerker">
+		<section class="black">
+			<section class="footer-center flex">
+				<img src="images/89d94da74e4c49e7fc3abbf235024159.webp" alt="Foto medewerker">
 				<h5>We helpen je graag!</h5>
 				<p>Heb je een vraag of een klacht? Laat het ons weten via het contactformulier of:</p>
 				<ul>
@@ -146,6 +145,12 @@
 					<li><img src="" alt="Telefoon">0800 022 01 61 8.00 - 20.00 uur (ma. t/m za.)</li>
 				</ul>
 				<p>Tip! Bekijk veelgestelde vragen ></p>
+			</section>
+			<section>
+				<h5>Download onze app</h5>
+				<p>Met de jumbo app doe je nog vlotter boodschappen. Met de service, ruime keuze en laagsteprijsgarantie die je van ons gewend bent!</p>
+				<p>Lees meer over de App ></p>
+				<img src="" alt="download app">
 			</section>
 			<section>
 				<h5>Laat je inspireren</h5>
@@ -181,21 +186,16 @@
 					<li>Corona maatregelen</li>
 				</ul>
 			</section>
-			<section>
-				<h5>Download onze app</h5>
-				<p>Met de jumbo app doe je nog vlotter boodschappen. Met de service, ruime keuze en laagsteprijsgarantie die je van ons gewend bent!</p>
-				<p>Lees meer over de App ></p>
-				<img src="" alt="download app">
-			</section>
-			<section>
-				<ul>
+		</section>
+		<section>
+				<ul class="footer-overig flex">
 					<li>Algemene voorwaarden</li>
 					<li>Sitemap</li>
 					<li>Cookies & Privacy</li>
 				</ul>
 			</section>
 			<section>
-				<ul>
+				<ul class="flex">
 					<!-- vraag: Hoe deze buttons? zelf of icon -->
 					<li>facebook button</li>
 					<li>instagram button</li>
@@ -204,8 +204,7 @@
 					<li>youtube button</li>
 				</ul>
 			</section>
-		</section>
-		<section>
+		<section class="flex">
 			<!-- vraag: dit of foto van alle in 1 -->
 			<img src="" alt="mastercard">
 			<img src="" alt="maestro">
@@ -215,7 +214,9 @@
 			<img src="" alt="applepay">
 			<img src="" alt="aanbiedersmedicijnen">
 			<img src="" alt="thuiswinkelwaarbord">
-			<p>&copy; 2020 Jumbo Supermarkten<p>
+			</section>
+			<section class="copyright flex">
+				<p>&copy; 2020 Jumbo Supermarkten<p>
 		</section>
 	</footer>
 	<script src="scripts/script.js"></script>
