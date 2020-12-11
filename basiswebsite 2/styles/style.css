@@ -1,5 +1,175 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+@font-face {
+  font-family: 'kalam';
+  src: url('fonts/Kalam-Bold.ttf')  format('truetype'),
+       url('fonts/Kalam-Light.ttf')  format('truetype'),
+       url('fonts/Kalam-Regular.ttf')  format('truetype');
 }
+*, *::after, *::before {
+  box-sizing:border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+section {
+  padding: 15px;
+}
+ul {
+  list-style-type:none;
+  padding: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 5px 20px;
+  line-height: 19px;
+}
+b {
+  font-weight: 900;
+}
+h1 {
+  font-weight: normal;
+}
+h2 {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+}
+h3 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+}
+h4 {
+font-family: "kalam", sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.flex {
+  display: flex;
+}
+.menu {
+  height: 50px;
+  justify-content:space-between;
+}
+.menu img {
+  width: 90px;
+}
+input {
+  border-radius: 15px;
+  width: 90%;
+  padding: 5px;
+  border: 1px solid #D5D5D5;
+}
+.search{
+  justify-content: center;
+}
+.jumbotron {
+  background-image: url("../images/Homepage-hero-L-week-48.jpg");
+  text-align: center;
+  color: #fff;
+  text-shadow:5px 5px 10px black;
+}
+.blokken img {
+  height: 66px;
 
+}
+.blokken li {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: center;
+  border: 1px solid #D5D5D5;
+  padding: 15px;
+}
+.blokken li:nth-of-type(1) {
+  border-radius: 10px 0px 0px 10px;
+}
+.blokken li:nth-of-type(3) {
+  border-radius: 0px 10px 10px 0px;
+}
+.rijen li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  border: 1px solid #D5D5D5;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.kalam {
+  font-family: "kalam", sans-serif;
+}
+.arrow {
+  background-color: #fdc513;
+  padding: 7px 10px;
+  border-radius: 26px;
+}
+.a-border {
+  border: 1px solid #c8c8c8;
+}
+.vierkanten {
+  flex-wrap: wrap;
+}
+.vierkanten li {
+  flex-basis: 50%;
+}
+.vierkanten img {
+  border-radius: 20px;
+  width: 11em;
+}
+.vierkanten a {
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.vierkanten p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ababab;
+}
+.yellow-a {
+  background-color: #fdc513;
+}
+.zekerheden {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+.black {
+  background-color: #000;
+  color: #fff;
+}
+.footer-center {
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-center img {
+  width: 7em;
+}
+.footer-overig {
+  justify-content: space-around;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+}
+.copyright {
+  justify-content: center;
+  color: #ababab;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+}

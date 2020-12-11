@@ -39,6 +39,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+-Goed-
+Zag er goed uit en was al lekker op weg.
+
+-verbetering-
+Button aanpassen naar een A element
+span mag gebruikt worden (naar aanleiding van mijn vraag)
 
 **Screenshot(s):**
 
@@ -64,7 +70,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
-
+<img src="images/breakdownschets.png" width="375px" alt="omschrijving van de pagina">
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
@@ -77,25 +83,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/IMG_0901" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0902" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0903" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0904" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0905" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0906" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0907" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0901.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0902.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0903.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0904.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0905.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0906.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0907.PNG" width="375px" alt="omschrijving van de pagina">
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/IMG_0908" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0909" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0910" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0911" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0912" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0913" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0914" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0915" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0916" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0917" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0918" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0919" width="375px" alt="omschrijving van de pagina">
-<img src="images/IMG_0920" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0908.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0909.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0910.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0911.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0912.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0913.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0914.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0915.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0916.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0917.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0918.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0919.PNG" width="375px" alt="omschrijving van de pagina">
+<img src="images/IMG_0920.PNG" width="375px" alt="omschrijving van de pagina">
