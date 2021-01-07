@@ -25,7 +25,7 @@ a {
   border-radius: 15px;
   font-weight: 700;
   font-size: 14px;
-  padding: 5px 20px;
+  padding: 1px 10px;
   line-height: 19px;
 }
 b {
@@ -43,6 +43,7 @@ h3 {
   font-weight: 400;
   font-size: 25px;
   line-height: 30px;
+  margin-bottom: 0.5em;
 }
 h4 {
 font-family: "kalam", sans-serif;
@@ -57,27 +58,45 @@ img {
 .flex {
   display: flex;
 }
-.menu {
+nav {
   height: 50px;
-  justify-content:space-between;
+  justify-content:space-around;
 }
-.menu img {
-  width: 90px;
+nav img {
+  width: 6em;
+}
+nav h5 img {
+  width: 1em;
+}
+nav ul {
+  justify-content: space-between;
+}
+nav ul img {
+  width: 1em;
 }
 input {
   border-radius: 15px;
   width: 90%;
   padding: 5px;
   border: 1px solid #D5D5D5;
+  background-image: url("../images/search-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 1.2em;
+  background-position: 0.4em;
+}
+input::placeholder {
+  padding-left: 2em;
 }
 .search{
   justify-content: center;
 }
 .jumbotron {
+  height: 8em;
   background-image: url("../images/Homepage-hero-L-week-48.jpg");
+  background-size: contain;
+  background-position: center;
   text-align: center;
   color: #fff;
-  text-shadow:5px 5px 10px black;
 }
 .blokken img {
   height: 66px;
@@ -117,6 +136,7 @@ input {
   border-radius: 26px;
 }
 .a-border {
+  margin: 0.2em;
   border: 1px solid #c8c8c8;
 }
 .vierkanten {
@@ -124,6 +144,7 @@ input {
 }
 .vierkanten li {
   flex-basis: 50%;
+  padding-bottom: 1em;
 }
 .vierkanten img {
   border-radius: 20px;
@@ -172,4 +193,16 @@ input {
   font-weight: 400;
   font-size: 12px;
   line-height: 17px;
+}
+.black h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+.brands {
+  justify-content: space-around;
+}
+.brands img {
+  width: 1em;
+  background-color: black;
 }
