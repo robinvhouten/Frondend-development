@@ -1,44 +1,37 @@
 # Procesverslag
 **Auteur:** Robin van Houten
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
-
 ## Bronnenlijst
 1. -bron 1-
 2. -bron 2-
 3. -...-
 
-
+## Herkansing
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Tijdens het gesprek gaf ik gelijk al aan dat ik voor de herkansing ging. Heb na voortgang 2 er geen tijd meer in gestoken en is er dus niks veranderd ten opzichte van toen. De feedback was dan ook niet heel veel anders dan voortgang 2 en 3. Eind cijfer is een 4,5
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
-
+<img src="images/screenshotpagina.png" width="375px" alt="Screenshot">
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
-
-
+Geen progressie gemaakt sinds vorige voortgang op wat foto's inzetten na dus feedback bleef bij het zelfde.
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+-Goed-
+Robert had snel door dat ik al eens eerder websites gemaakt had en vond de structuur er al aardig uit zien.
 
-
+-verbetering-
+het viel op dat ik via een bootstrap manier programmeerde dit was niet perse slecht.
+De volgorde van h1 naar h6 kan beter. Nu staat er wat door elkaar. Gebruik maken van nav ipv section voor de navigatie.
+pixels omzetten in em.
 
 ## Voortgang 1 (week 3)
 
-### Stand van zaken
-
--dit ging goed & dit was lastig-
 -Goed-
 Zag er goed uit en was al lekker op weg.
 
@@ -46,34 +39,11 @@ Zag er goed uit en was al lekker op weg.
 Button aanpassen naar een A element
 span mag gebruikt worden (naar aanleiding van mijn vraag)
 
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent met korte uitleg-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
-
-
 ## Breakdownschets (week 1)
-
--uitwerken voor de 1e werkgroep - eind van de eerste week-
 
 <img src="images/breakdownschets.png" width="375px" alt="omschrijving van de pagina">
 
 ## Intake (week 1)
--uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
 **Je startniveau:** rood
 
