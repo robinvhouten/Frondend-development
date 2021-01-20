@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="author" content="Robin van Houten">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<title> Spaar nu bij Jumbo voor MasterChef pannen | Jumbo Supermarkten</title>
 
 	<link href="styles/style.css" rel="stylesheet">
@@ -13,29 +13,58 @@
 
 <body>
 	<header>
-		<section class="flex menu">
+		<nav class="flex">
 			<section>
-				<h5>MENU</h5>
+				<div id="dropdown">
+					<section class="space flex">
+						<img src="images/Jumbo_Logo.svg.png" alt="jumbo logo">
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<img class="times" src="images/times-solid.svg" alt="">
+					</a>
+					</section>
+					<section>
+						<ul>
+							<li><a href="#">Boodschappen</a></li>
+							<li><a href="#">Aanbiedingen</a></li>
+							<li><a href="#">Online bestellen</a></li>
+							<li><a href="#">Winkels & Openingstijden</a></li>
+							<li><a href="#">Win- en spaaracties</a></li>
+							<li><a href="#">Recepten</a></li>
+							<li><a href="#">Wat eten we?</a></li>
+							<li><a href="#">Service</a></li>
+							<li><a href="#">Zakelijk bestellen</a></li>
+							<li><hr></li>
+						</ul>
+					</section>
+					<section>
+						<p>Klantenservice</p>
+						<p>0800 - 0220161</p>
+						<p>08:00 - 20:00 uur (ma. t/m za.)</p>
+					</section>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<img src="images/bars-solid.svg" alt="menu">MENU
+				</a>
 			</section>
 			<img src="images/Jumbo_Logo.svg.png" alt="jumbo logo">
-			<ul>
-				<li><i class="fas fa-user-alt"></i></li>
-				<li><i class="fas fa-heart"></i></li>
-				<li><i class="fas fa-shopping-basket"></i></li>
+			<ul class="flex icon">
+				<li><img src="images/user-alt-solid.svg" alt="user"></li>
+				<li><img src="images/heart-regular.svg" alt="favorieten"></li>
+				<li><img src="images/shopping-basket-solid.svg" alt=""></li>
 			</ul>
-		</section>
+		</nav>
 		<section class="flex search">
 			<input type="text" placeholder="Waar ben je naar op zoek?">
 		</section>
 	</header>
 	<main>
-		<section>
-      <h1>Spaar mee voor MasterChef pannen</h1>
+		<section class="jumbotron2">
+      <h1><strong>De beste pannenactie</strong> van dit moment</h1>
       <p>En kook als een échte kok</p>
-      <button type="button" name="button">Lees hoe het werkt</button>
+      <a class="yellow-a">Lees hoe het werkt</a>
     </section>
     <section>
-      <ul>
+      <ul class="pannen">
         <li>Pannenactie</li>
         <li>Grillpan</li>
         <li>Hapjespan</li>
@@ -44,45 +73,90 @@
         <li>Braadpan</li>
       </ul>
     </section>
-    <section>
-      <h2>Koken als een echte chef met de pannen van MasterChef</h2>
+    <section class="intro">
+      <h2><strong>Koken als een echte chef </strong>met de pannen van MasterChef</h2>
       <p>Wil jij koken als een chef-kok? Spaar dan nu voor hoge kortingen op verschillende MasterChef pannen. Deze pannen zijn van een professionele kwaliteit en daarmee maak je de lekkerste gerechten. En spaar je ook mee met Jumbo Extra's? Dan kun je de set compleet maken met een pannendeksel en een schort, zowel voor kids als volwassenen.</p>
       <p>Bij elke € 10,- aan boodschappen ontvang je een spaarzegel. Met een volle spaarkaart kun je een pan naar keuze aanschaffen met een flinke korting, die wel tot 75 % kan oplopen. Zo maakt Jumbo kwalitatieve pannen voor iedereen betaalbaar, want we gunnen iedereen het gevoel een echte kok te zijn. Maar zorg dat je er snel bij bent, want op = op!</p>
-      <button type="button" name="button">Bekijk de actievoorwaarden</button>
-      <button type="button" name="button">Bekijk de veelgestelde vragen</button>
+      <a href="#" class="yellow-a">Bekijk de actievoorwaarden</a>
+      <a href="#" class="a-border">Bekijk de veelgestelde vragen</a>
     </section>
-    <section>
-      <h2>Voor deze pannen kun je sparen</h2>
+    <section class="overzicht">
+      <h2>Voor <strong>deze pannen</strong> kun je sparen</h2>
       <ul>
-        <li> <!-- vraag: is dit handig? -->
-          <img src="" alt="pan">
-          <p>Master Chef Aluminium Koekenpan 20cm</p>
-          <p>9,99 + volle spaarkaart</p>
-          <p>39,95 9 99 9,99/stuk +</p>
+        <li class="flex">
+          <img src="images/290820200153_391014STK-1_360x360_2.png" alt="pan">
+          <p class="omschrijving">Master Chef Aluminium Koekenpan 20cm <br><span class="red">9,99 + volle spaarkaart</span></p>
+          <p><span class="line">39,95</span><br><strong>9,99</strong><br><span class="grey">9,99/stuk</span></p>
+					<p class="green">+</p>
+        </li>
+				<li class="flex">
+          <img src="images/pan2.webp" alt="pan">
+          <p class="omschrijving">Master Chef Aluminium Koekenpan 24cm <br><span class="red">13,99 + volle spaarkaart</span></p>
+          <p><span class="line">44,95</span><br><strong>13,99</strong><br><span class="grey">13,99/stuk</span></p>
+					<p class="green">+</p>
+        </li>
+				<li class="flex">
+          <img src="images/pan3.webp" alt="pan">
+          <p class="omschrijving">Master Chef Aluminium Koekenpan 28cm <br><span class="red">9,99 + volle spaarkaart</span></p>
+          <p><span class="line">39,95</span><br><strong>9,99</strong><br><span class="grey">9,99/stuk</span></p>
+					<p class="green">+</p>
+        </li>
+				<li class="flex">
+          <img src="images/pan4.webp" alt="pan">
+          <p class="omschrijving">Master Chef Aluminium Braadpan 24cm <br><span class="red">17,99 + volle spaarkaart</span></p>
+          <p><span class="line">69,95</span><br><strong>17,99</strong><br><span class="grey">17,99/stuk</span></p>
+					<p class="green">+</p>
+        </li>
+				<li class="flex">
+          <img src="images/pan5.webp" alt="pan">
+          <p class="omschrijving">Master Chef Aluminium Koekenpan 20cm <br><span class="red">9,99 + volle spaarkaart</span></p>
+          <p><span class="line">39,95</span><br><strong>9,99</strong><br><span class="grey">9,99/stuk</span></p>
+					<p class="green">+</p>
+        </li>
+				<li class="flex">
+          <img src="images/pan6.webp" alt="pan">
+          <p class="omschrijving">Master Chef Aluminium Koekenpan 20cm <br><span class="red">9,99 + volle spaarkaart</span></p>
+          <p><span class="line">39,95</span><br><strong>9,99</strong><br><span class="grey">9,99/stuk</span></p>
+					<p class="green">+</p>
+        </li>
+				<li class="flex">
+          <img src="images/pan7.webp" alt="pan">
+          <p class="omschrijving">Master Chef Aluminium Koekenpan 20cm <br><span class="red">9,99 + volle spaarkaart</span></p>
+          <p><span class="line">39,95</span><br><strong>9,99</strong><br><span class="grey">9,99/stuk</span></p>
+					<p class="green">+</p>
         </li>
       </ul>
     </section>
-    <section>
-      <h2>Maak de set compleet met jumbo Extra's</h2>
+    <section class="extra">
+      <h2>Maak de set <strong>compleet met jumbo Extra's</strong></h2>
       <p>Spaar je mee met Jumbo Extra's? Dan kun je je pannenset aanvullen met onderstaande producten. Exclusief verkrijgbaar met Jumbo Extra’s punten + bijbetaling. De pannendeksel en schorten vind je in jouw Jumbo winkel.</p>
-      <ul> <!-- zelfde vraag als home blokken? -->
-        <li></li>
-        <li></li>
-        <li></li>
+      <ul>
+        <li>
+        	<img src="images/schort-thumb.webp" alt="short">
+					<p>Schort</p>
+        </li>
+        <li>
+					<img src="images/schort-thumb.webp" alt="junior-short">
+					<p>Junior schort</p>
+        </li>
+        <li>
+					<img src="images/deksel-thumb.webp" alt="deksel">
+					<p>Deksel</p>
+        </li>
       </ul>
     </section>
-    <section>
-      <h3>Spaar makkelijker en sneller met Jumbo Extra's</h3>
+    <section class="spaar">
+      <h3>Spaar <strong>makkelijker</strong> en <strong>sneller</strong> met Jumbo Extra's</h3>
       <p>Als je via Jumbo Extra's spaart, profiteer je van leuke extra's:</p>
       <ul>
         <li>Extra artikelen om voor te sparen: een glazen deksel en een schort, die verkrijgbaar is voor volwassenen én voor je kleine Junior Chef.</li>
         <li>Je zegels worden automatisch bijgeschreven als je je Jumbo Extra's pas of app scant bij de kassa. Geen gedoe meer met losse zegels die kwijtraken.</li>
       </ul>
-      <button type="button" name="button">Wat is Jumbo Extra's</button>
-      <img src="" alt="jumbo extras">
+      <a class="a-border" href="#">Wat is Jumbo Extra's</a>
+      <img src="images/JBE-Logo-S.jpg" alt="jumbo extras">
     </section>
-    <section>
-      <h3>Zo spaar je voor MasterChef pannen</h3>
+    <section class="spaarkaart">
+      <h3><strong>Zo spaar je </strong> voor MasterChef pannen</h3>
       <p>Bij elke 10 euro aan boodschappen bij Jumbo ontvang je één pannenzegel. Als je online boodschappen doet, krijg je de pannenzegels van jouw bezorger of van de medewerker bij het Pick Up Point.</p>
       <ul>
         <li>Sparen kan van woensdag 7 oktober 2020 t/m dinsdag 26 januari 2021</li>
@@ -91,14 +165,14 @@
         <li>Één volle spaarkaart + bijbetaling = een MasterChef pan naar keuze.</li>
         <li>Inleveren van je volle spaarkaart kan t/m dinsdag 9 februari 2021 bij jouw Jumbowinkel, bij de medewerker van het Pick Up Point of bij de bezorger. Als je online boodschappen doet, voeg dan de pannen toe aan je bestelling.</li>
       </ul>
-      <button type="button" name="button">Bekijk de actievoorwaarden</button>
+      <a class="a-border" href="#">Bekijk de actievoorwaarden</a>
       <p>Download de spaarkaart ></p>
-      <img src="" alt="spaarkaart">
+      <img src="images/Pannen-2020-flyer-S.jpg" alt="spaarkaart">
     </section>
-    <section>
-      <h3>Daarom ben je met MasterChef onder de pannen</h3>
+    <section class="masterchef">
+      <h3>Daarom ben je <strong>met MasterChef onder de pannen</strong></h3>
       <p>Met zo'n fantastische pan van MasterChef kan je gerecht haast niet mislukken. Nog even de voordelen op een rijtje:</p>
-      <ul>
+      <ul class="check">
         <li>Vaatwasmachinebestendig</li>
         <li>Hoogwaardige anti-aanbaklaag</li>
         <li>Geschikt voor alle warmtebronnen</li>
@@ -109,40 +183,48 @@
       </ul>
     </section>
     <section>
-      <h2>Extra snel sparen met deze actieproducten</h2>
+      <h2><strong>Extra snel sparen</strong> met deze <strong>actieproducten</strong></h2>
       <p>Deze aanbiedingen zijn geldig van woensdag 18 november t/m dinsdag 24 november 2020 en is geldig op het moment van ophalen of bezorgen.</p>
-        <!-- zelfde blokken als eerdere vragen? -->
+			<ul class="producten flex">
+				<li>
+					<img src="images/broccoli.png" alt="broccoli">
+					<a class="a-border" href="#">Bekijk</a>
+				 </li>
+				 <li>
+ 					<img src="images/roerbakgroente.png" alt="roerbakgroente">
+ 					<a class="a-border" href="#">Bekijk</a>
+ 				 </li>
+			</ul>
     </section>
     <section>
-      <h3>Wat eten we? Gebruik je pannen bij deze lekkere, snelle recepten</h3>
-      <!-- zelfde blokken -->
-      <button type="button" name="button">Meer recepten</button>
+      <h3><strong>Wat eten we?</strong> Gebruik je pannen bij deze <strong>lekkere, snelle recepten</strong></h3>
+			<img src="images/recepten.png" alt="recepten">
+			<a class="a-border" href="#">Meer recepten</a>
     </section>
     <section>
-      <h3>Veelgestelde vragen</h3>
-      <!-- faq het beste doen? -->
-      <button type="button" name="button">Bekijk alle veelgestelde vragen</button>
+      <h3><strong>Veelgestelde vragen</strong></h3>
+      <a class="a-border" href="#">Bekijk alle veelgestelde vragen</a>
     </section>
     <section>
-      <h4>Andere vraag?</h4>
+      <h3><strong>Andere</strong> vraag?</h3>
       <p>Heb je een vraag over deze spaaractie? We helpen je graag! Laat het ons weten via het contactformulier of:</p>
       <ul>
-        <li>Facebook 08.00 - 20.00 uur (ma. t/m zo.)</li>
-        <li>Twitter 08.00 - 20.00 uur (ma. t/m zo.)</li>
-        <li>0800 022 01 61 08.00 - 20.00 uur (ma. t/m za.)</li>
+        <li>Facebook <br> 08.00 - 20.00 uur (ma. t/m zo.)</li>
+        <li>Twitter <br> 08.00 - 20.00 uur (ma. t/m zo.)</li>
+        <li>0800 022 01 61 <br>08.00 - 20.00 uur (ma. t/m za.)</li>
       </ul>
     </section>
 	</main>
 	<footer>
 		<section class="black">
 			<section class="footer-center flex">
-				<img src="images/89d94da74e4c49e7fc3abbf235024159.webp" alt="Foto medewerker">
+				<img class="medewerker1" src="images/89d94da74e4c49e7fc3abbf235024159.webp" alt="Foto medewerker">
 				<h5>We helpen je graag!</h5>
 				<p>Heb je een vraag of een klacht? Laat het ons weten via het contactformulier of:</p>
 				<ul>
-					<li><img src="" alt="Facebook">Facebook 8.00 - 20.00 uur (ma. t/m zo.)</li>
-					<li><img src="" alt="Twitter">Twitter 8.00 - 20.00 uur (ma. t/m zo.)</li>
-					<li><img src="" alt="Telefoon">0800 022 01 61 8.00 - 20.00 uur (ma. t/m za.)</li>
+					<li><img src="images/facebook-f-brands-kopie.svg" alt="Facebook">Facebook <br> 8.00 - 20.00 uur (ma. t/m zo.)</li>
+					<li><img src="images/twitter-brands-kopie.svg" alt="Twitter">Twitter <br> 8.00 - 20.00 uur (ma. t/m zo.)</li>
+					<li><img src="images/phone-alt-solid.svg" alt="Telefoon">0800 022 01 61 <br> 8.00 - 20.00 uur (ma. t/m za.)</li>
 				</ul>
 				<p>Tip! Bekijk veelgestelde vragen ></p>
 			</section>
@@ -150,7 +232,7 @@
 				<h5>Download onze app</h5>
 				<p>Met de jumbo app doe je nog vlotter boodschappen. Met de service, ruime keuze en laagsteprijsgarantie die je van ons gewend bent!</p>
 				<p>Lees meer over de App ></p>
-				<img src="" alt="download app">
+				<img src="images/download.png" alt="download app">
 			</section>
 			<section>
 				<h5>Laat je inspireren</h5>
@@ -195,25 +277,16 @@
 				</ul>
 			</section>
 			<section>
-				<ul class="flex">
-					<!-- vraag: Hoe deze buttons? zelf of icon -->
-					<li>facebook button</li>
-					<li>instagram button</li>
-					<li>pinterest button</li>
-					<li>twitter button</li>
-					<li>youtube button</li>
+				<ul class="flex brands">
+					<li><img src="images/facebook-f-brands.svg" alt="facebook"></li>
+					<li><img src="images/instagram-brands.svg" alt="instagram"></li>
+					<li><img src="images/pinterest-brands.svg" alt="pinterest"></li>
+					<li><img src="images/twitter-brands.svg" alt="twitter"></li>
+					<li><img src="images/youtube-brands.svg" alt="youtube"></li>
 				</ul>
 			</section>
 		<section class="flex">
-			<!-- vraag: dit of foto van alle in 1 -->
-			<img src="" alt="mastercard">
-			<img src="" alt="maestro">
-			<img src="" alt="visa">
-			<img src="" alt="vpay">
-			<img src="" alt="amex">
-			<img src="" alt="applepay">
-			<img src="" alt="aanbiedersmedicijnen">
-			<img src="" alt="thuiswinkelwaarbord">
+			<img src="images/betalen.png" alt="betaalmogelijkheden">
 			</section>
 			<section class="copyright flex">
 				<p>&copy; 2020 Jumbo Supermarkten<p>
