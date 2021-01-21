@@ -119,6 +119,7 @@ input::placeholder {
   height: 62.5em;
   left: 0;
   top: 0;
+  transition: all 2s ease;
 }
 #dropdown li {
   padding: 0.93em 0;
@@ -196,7 +197,7 @@ input::placeholder {
 .a-border {
   margin: 0.2em;
   border: 1px solid #c8c8c8;
-  display: inline-block;
+  display: inline-block; /*hulp van Marloes Tacx*/
   margin-bottom: 1em;
 }
 .vierkanten {
@@ -301,6 +302,10 @@ input::placeholder {
   font-size: 0.875em;
   line-height: 1.1875em;
 }
+.jumbotron2 a {
+  top: 19em;
+  position: absolute;
+}
 .pannen {
   text-align: center;
 }
@@ -345,7 +350,7 @@ input::placeholder {
 .intro a {
   display: flex;
   flex-wrap: wrap;
-  width: 14.875em;
+  width: 16.875em;
 }
 .check li:before{
   content: '';
@@ -353,13 +358,16 @@ input::placeholder {
 }
 .medewerker {
   position: absolute;
-  top: 187.9375em;
+  top: 203.9375em;
   left: 9.375em;
 }
 .medewerker1 {
   position: absolute;
   top: 432.625em;
   left: 9.375em;
+}
+.footer-center li {
+  margin-bottom: 1em;
 }
 .overzicht img {
   width: 25%;
