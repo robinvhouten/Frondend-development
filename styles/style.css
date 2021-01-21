@@ -24,8 +24,8 @@ a {
   border: 1px solid #fff;
   border-radius: 1em;
   font-weight: 700;
-  font-size: 0,9em;
-  padding: 0,06em 0.6em;
+  font-size: 0.9em;
+  padding: 0.5em 1em;
   line-height: 1.1em;
 }
 strong {
@@ -73,7 +73,7 @@ img {
 nav {
   height: 50px;
   justify-content:space-around;
-  box-shadow: 0 0,06em #D5D5D5;
+  box-shadow: 0 0.06em #D5D5D5;
   align-items: center; /* hulp van Sam Slotenmaker */
 }
 nav img {
@@ -84,16 +84,16 @@ nav img {
   margin-right: 0.3em;
 }
 
-nav li {
+.icon li {
   border: 1px solid #D5D5D5;
   border-radius: 2em;
   padding: 0.5em;
   margin-left: 0.3em;
 }
-nav li:nth-of-type(3) {
+.icon li:nth-of-type(3) {
   background-color: #fdc513;
 }
-nav ul img {
+.icon ul img {
   width: 1em;
 }
 input {
@@ -126,7 +126,7 @@ input::placeholder {
 .top {
   position: absolute;
   z-index: 1;
-  top: 11.9em;
+  top: 16.9em;
 }
 .top ul {
   background-color: #fff;
@@ -141,14 +141,18 @@ input::placeholder {
   justify-content: center;
 }
 .jumbotron {
-  height: 8em;
-  background-image: url("../images/Homepage-hero-L-week-48.jpg");
-  background-size: contain;
+  height: 15em;
+  background-image: url("../images/Homepage-hero-S-week-02.webp");
+  background-size: cover;
   background-position: center;
   text-align: center;
   color: #fff;
 }
-
+.jumbotron a {
+  top: 16.5em;
+  left: 8em;
+  position: absolute;
+}
 .blokken img {
   height: 70%;
   width: 65%;
@@ -173,7 +177,7 @@ input::placeholder {
 .rijen li {
   display: flex;
   justify-content: space-between;
-  font-size: 0,875em;
+  font-size: 0.875em;
   font-weight: 700;
   line-height: 1.1875em;
   border: 1px solid #D5D5D5;
@@ -192,6 +196,8 @@ input::placeholder {
 .a-border {
   margin: 0.2em;
   border: 1px solid #c8c8c8;
+  display: inline-block;
+  margin-bottom: 1em;
 }
 .vierkanten {
   flex-wrap: wrap;
