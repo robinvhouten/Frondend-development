@@ -8,7 +8,8 @@
 4. -...-
 
 ## Herkansing
-
+<img src="images/homepagina.png" width="375px" alt="Screenshot">
+<img src="images/pannenactie.png" width="375px" alt="Screenshot">
 ## Eindgesprek (week 7/8)
 
 Tijdens het gesprek gaf ik gelijk al aan dat ik voor de herkansing ging. Heb na voortgang 2 er geen tijd meer in gestoken en is er dus niks veranderd ten opzichte van toen. De feedback was dan ook niet heel veel anders dan voortgang 2 en 3. Eind cijfer is een 4,5
